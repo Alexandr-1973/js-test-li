@@ -98,7 +98,7 @@ ul {
   height: 34px;
   border-radius: 50%;
   border: none;
-  background-image: url("./img/dump.png");
+  background-image: url("../img/dump.png");
 }
 
 .shoppinglist-book-title {
