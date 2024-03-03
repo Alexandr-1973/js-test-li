@@ -34,145 +34,113 @@ img {
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .shoppinglist-book {
-display: flex;
-gap: 24px;
-border: 2px solid rgba(79, 46, 232, 0.4);
-border-radius: 16px;
-padding: 30px 24px;
-width: 996px;
-/* height: 213px; */
-background-color: #fff;
+  display: flex;
+  gap: 24px;
+  border: 2px solid rgba(79, 46, 232, 0.4);
+  border-radius: 16px;
+  padding: 30px 24px;
+  width: 996px;
+
+  background-color: #fff;
 }
 
 .shoppinglist-tb-div {
-    display: flex;
-    align-items: last baseline;
-    justify-content: space-between;
-    margin-bottom: 14px;
-    /* width: 850px; */
-    
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+  margin-bottom: 14px;
 }
 
 .shoppinglist-titcat-div {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .shoppinglist-total-div {
-    display: flex;
-    flex-direction: column;
-    width: 854px;
-    
+  display: flex;
+  flex-direction: column;
+  width: 854px;
 }
 
 .shoppinglist-low-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .shoppinglist-book-low-ul {
-    display: flex;
-    gap: 16px;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 16px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
 }
-/* 
-.shoppinglist-book-low-li-amazon {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.shoppinglist-book-low-li-apple {
-    display: flex;
-     justify-content: center;
-    align-items: flex-start;
-} */
 
 .shoppinglist-desauthorlink {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 110px;
-
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110px;
 }
 .shoppinglist-book-image {
-    width: 116px;
-    height: 165px;
-    border-radius: 8px;
+  width: 116px;
+  height: 165px;
+  border-radius: 8px;
 }
 
 .shoppinglist-book-deletebutton {
-     width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    border: none;
-    background-image: url("/img/dump.png");
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background-image: url("./img/dump.png");
 }
-/* 
-.shoppinglist-book-description {
-    margin-bottom: 48px;
-} */
 
 .shoppinglist-book-title {
-    font-family: "DM Sans", sans-serif;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.125;
-letter-spacing: -0.04em;
-text-transform: uppercase;
-color: #111;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #111;
 }
 
 .shoppinglist-book-category {
-    font-family: "DM Sans", sans-serif;
-font-style: italic;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16667;
-letter-spacing: -0.04em;
-color: #b4afaf;
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.04em;
+  color: #b4afaf;
 }
 
 .shoppinglist-book-description {
-    font-family: "DM Sans", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.04em;
-color: #111;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #111;
 }
 
 .shoppinglist-book-author {
-    font-family: "DM Sans", sans-serif;
-font-style: italic;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16667;
-letter-spacing: -0.04em;
-color: #b4afaf;
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.04em;
+  color: #b4afaf;
 }
 
 .shoppinglist-book-button-img {
-    width: 34px;
-height: 34px;
+  width: 34px;
+  height: 34px;
 }
-/* 
-.shopping-listamazon-img {
-    width: 48px;
-height: 15px;
-} */
-/* 
-.shopping-apple-img {
-    width: 28px;
-height: 27px;
-} */
